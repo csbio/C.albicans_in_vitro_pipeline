@@ -5,11 +5,11 @@ library(plotrix)
 # Begin script - this script is only for generating QC stats and plots
 
 # Set working directory
-work_dir = "/Users/zhangxiang/Documents/Research_CB/GeneEssentiality_CandidaAlbicans/Emily_Xiong_analysis/EX_mod_t_pipeline_Dec2022/code"
+work_dir = "C.albicans_in_vitro_pipeline/src/score"
 setwd(work_dir)
 
 # Source utility functions
-source("mod_t_test_utils.R")
+source("utils.R")
 
 ######
 # PARAMETER SETTING & DATA PREPROCESSING
@@ -20,7 +20,7 @@ bool_qc <- TRUE # TRUE if we want to generate the QC plots
 nodox_qc_filter <- 50 # QC threshold - for each mutant, if its NO_DOX read is lower than this value, it will be replaced as NA to be filtered form downstream analyis
 
 # Set metatable directory
-meta_dir = "metatable_Dec2022.txt"
+meta_dir = "../../data/input/metatable_Dec2022.txt"
 
 # Read the metatable that guides the column names to refer to
 df_meta <- read.csv(file=meta_dir, header=TRUE, sep='\t')
@@ -29,7 +29,7 @@ df_meta <- read.csv(file=meta_dir, header=TRUE, sep='\t')
 plate_col = unique(df_meta$plate_column)[1]
 
 # Start the pipeline by pre-processing the input data to get LFC
-df_all <- read.csv("../raw_read_data/sum_data_merged_renamed_fixed_02282023.tsv", sep='\t')
+df_all <- read.csv("../../data/input/in_vitro_raw_read_data.tsv", sep='\t')
 
 column_groups_up <- list(
   FBS = c("A_FBS_UP_LFC",
@@ -158,9 +158,9 @@ column_groups_dn <- list(
 # Conduct one sample moderated t-test on every condition, integrating UP and DN tags
 
 # Set output and QC directory
-output_dir = "../output_02282023/"
+output_dir = "../../data/output/output_scores/"
 if (!dir.exists(output_dir)) { dir.create(output_dir, recursive = TRUE) }
-qc_output_dir = "../qc/"
+qc_output_dir = "../../data/output/qc/"
 if (!dir.exists(qc_output_dir)) { dir.create(qc_output_dir, recursive = TRUE) }
 
 # Create dataframe to summarize all results for global comparison
@@ -266,14 +266,14 @@ if (isTRUE(bool_qc)) {
   
   bk <- seq(0.5, 1.0, by = 0.01)
   
-  pdf("../qc/wb_up.pdf")
+  pdf(paste0(qc_output_dir, "wb_up.pdf"))
   pheatmap(df_up_wb, border_color = "white", breaks = bk,
            color=colorRampPalette(rev(brewer.pal(n=7,name= "YlGnBu")))(50),
            display_numbers = TRUE, cluster_rows = FALSE, 
            cluster_cols = FALSE)
   dev.off()
   
-  pdf("../qc/wb_dn.pdf")
+  pdf(paste0(qc_output_dir, "wb_dn.pdf"))
   pheatmap(df_dn_wb, border_color = "white", breaks = bk,
            color=colorRampPalette(rev(brewer.pal(n=7,name= "YlGnBu")))(50),
            display_numbers = TRUE, cluster_rows = FALSE, 
@@ -288,7 +288,7 @@ if (isTRUE(bool_qc)) {
 # Conduct one sample moderated t-test on the difference between every condition and reference, integrating UP and DN tags
 
 # Define output directory:
-dLFC_output_dir <- "../output_each_vs_REF_02282023/"
+dLFC_output_dir <- "../../data/output/output_each_vs_REF/"
 if (!dir.exists(dLFC_output_dir)) { dir.create(dLFC_output_dir, recursive = TRUE) }
 
 # Create dataframe to summarize all results for global comparison
