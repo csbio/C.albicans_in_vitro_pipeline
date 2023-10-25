@@ -25,13 +25,11 @@ metric <- "snr"
 sort_metric <- "size"
 sort_decreasing <- FALSE
 member_threshold <- 3
-#filter_file <- file.path(output_folder, "orig_4k_layer1_clusters_to_filter_full283_FDR5.txt")
 filter_file <- NULL
 
 # Sets whether or not to load existing clusters by giving a path to that file or generate new ones,
 # by setting existing_clusters to NULL
 existing_clusters <- NULL
-#existing_clusters <- file.path(output_folder, "orig_layer1", "best_clusters.txt")
 
 # Replaces NAs with row means
 row_means <- rowMeans(scores, na.rm = TRUE)

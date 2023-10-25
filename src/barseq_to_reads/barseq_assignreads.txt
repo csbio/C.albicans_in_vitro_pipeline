@@ -1,0 +1,154 @@
+## Last Updated Date: 2023-10-24.
+
+## Required hardware.
+# An iMac or a Macbook.
+
+## Required software.
+# Homebrew
+# Git
+# Bowtie
+# Java Development Kit
+
+## Section 1: Installing and downloading programs and scripts.
+# Step 1.1: Install Homebrew.
+
+$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+# Step 1.2: Git.
+
+$ brew install git
+
+# Step 1.3: Bowtie.
+
+$ brew tap brewsci/bio
+$ brew install bowtie
+
+# Step 1.4: Java.
+# We will need Java 1.7. 
+# Download Java SE Development Kit 7u80 (1.7) for Mac OS X by accepting license agreement.
+
+# Step 1.5: Download the sequencing files from sequencing centre server. 
+
+
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+
+
+## Section 2: Sequence library preparation. (Only needed if using strains other than GRACE v1 and v2
+
+# Step 2.1: Open "Candida barcode V16 final annotation.xlsx" with excel.
+
+# Step 2.2: Input appropriate information. Row order does not matter. Following are the required information: Strain.ID, Merck Strain ID, orf19, Up BC ID, Up BC Sequence, Down BC ID, Down BC Sequence. Save, and also "Save as" as a Tab delimited text file.
+
+# Step 2.3: Open "all_barcodes_v3.fasta" file in Library directory with a text editor.
+
+# Step 2.4: Input Up and Down barcode sequences in following format. Row order does not matter.
+
+>Strain.ID_UP/DOWN
+barcode sequence
+
+For example:
+
+>ID.5792_UP
+GCGGAACCGGACTAATCTACGTA
+>ID.579_DOWN
+GCTGGACTACCATGTACTGCATC
+
+# Step 2.5: Generate indexed sequence library
+$ cd /Users/emilyxiong/Cowen_HIP/Library/
+$ bowtie-build all_barcodes_v3.fasta all_barcodes_v3
+
+
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+
+
+## Section 3: Read annotation.
+# Step 3.1: Double click the file to un-compress. This will make a folder called “Cowen”.
+
+$ cd /Volumes/EXIONG_T7/Cowen_BARSEQ/
+$ ls
+123-1-UP_S4_R1_001.fastq.gz
+123-2-UP_S5_R1_001.fastq.gz
+123-3-UP_S6_R1_001.fastq.gz
+247-1-UP_S7_R1_001.fastq.gz
+247-2-UP_S8_R1_001.fastq.gz
+247-3-UP_S9_R1_001.fastq.gz
+364-6-1-UP_S10_R1_001.fastq.gz
+364-6-2-UP_S11_R1_001.fastq.gz
+364-6-3-UP_S12_R1_001.fastq.gz
+364-8-1-UP_S13_R1_001.fastq.gz
+364-8-2-UP_S14_R1_001.fastq.gz
+364-8-3-UP_S15_R1_001.fastq.gz
+
+# These are compressed fastq files. They contain raw reads and quality scores.
+
+# Step 3.2: Set environment variable.
+
+$ export BOWTIE_INDEXES=/Volumes/EXIONG_T7/Cowen_BARSEQ/Library/
+
+# Step 3.3: Generate output directory. Copy and paste below to terminal as is.
+
+ODIR=$(date +'MappingOutput-%F')
+if [ ! -d ${ODIR} ]
+then
+   mkdir ${ODIR}
+fi
+
+# Step 3.4: Annotate reads to barcodes. Copy and paste below to terminal as is.
+
+for sample in $( find ./ -name '*.fastq.gz' -print | xargs basename | sed -E 's/_R1_001.fastq.gz//' | sort | uniq )
+do
+
+   oFile=$(echo $sample".map");
+   unmapped=$(echo $sample".unmapped");
+
+   echo $sample"->"$oFile;
+   fList=`find ./ -name $sample'*.fastq.gz' -print | tr '\n' ' ' | sed -e 's/,$//g'`
+
+   echo "File List:  "$fList >> ${ODIR}/mapping.log 2>&1
+
+   # Run bowtie, using PERL script to find sequence-of-interest in reads
+   gzcat $fList | bowtie -p 3 -t all_barcodes_v3 -l 20 -m 1 -n 1 --best --strata --un ${ODIR}/$unmapped - ${ODIR}/$oFile >> ${ODIR}/mapping.log 2>&1
+
+   ###
+   ## Add in error check for bowtie
+   ###
+
+done
+
+# With the newer Mac OSX versions, I kept running into user permission issues. Following few steps are to disable some security features. I will also show how to re-enable it. This may not be needed for all computers.
+
+# Step 3.5: Disable Gatekeeper. This will prompt your user password. Type it in.
+
+$ sudo spctl --master-disable
+
+# Step 3.6: Load Java 1.7.
+
+$ export JAVA_HOME=$(/usr/libexec/java_home -v 1.7)
+
+# Step 3.7: Summarize alignments. Copy and paste below to terminal as is.
+
+ls -l ${ODIR}/*.map > /dev/null 2>&1    # Checking if mapping files exist
+if [ "$?" = "0" ]; then
+   cd ${ODIR}                           # Move in to output dir
+   java -Xmx4096M -jar /Volumes/EXIONG_T7/Cowen_BARSEQ/Library/summarizeAlignments.jar /Volumes/EXIONG_T7/Cowen_BARSEQ/Library/Candida_barcode_V16_final_annotation_GRACEv3.txt `find ./ -name '*.map' -print | tr '\n' ','`         # Run merging through Java
+
+   if [ "$?" > "0" ]; then
+      echo "There was an error merging files!"
+      cd -
+      exit 1
+   fi
+
+   cd -
+else
+   echo "No files to merge."
+fi
+
+# This should produce "merged_results.txt" file inside the MappingOutput-YYYY-MM-DD folder. This is the file that contains read counts for each barcode/gene.
+
+
+
+
+
+
