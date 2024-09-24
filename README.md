@@ -11,6 +11,7 @@ The repository is organized as follows:
 - `data/`: Contains the datasets and relevant data files used in the analysis.
 - `notebooks/`: Jupyter notebooks for step-by-step data analysis, visualization, and interpretation.
 - `src/`: Source code for Python and R scripts used in the analysis.
+- `STAR_Protocols_code_data/`: Example code and data for running through the scoring pipeline from raw reads.
 
 ## Prerequisites & Installation
 
@@ -58,3 +59,5 @@ Distributed under the MIT License. See `LICENSE` for more information.
 Please email to Xiang Zhang (zhan6668@umn.edu) if you have any questions, comments, or suggestions regarding this program.
 
 Project Link: https://github.com/csbio/C.albicans_in_vitro_pipeline
+
+Publication: Xiong, E. H., Zhang, X., Yan, H., Ward, H. N., Lin, Z. Y., Wong, C. J., Fu, C., Gingras, A. C., Noble, S. M., Robbins, N., Myers, C. L. & Cowen, L. E. (2024). Functional genomic analysis of genes important for *Candida albicans* fitness in diverse environmental conditions. *Cell Reports*, 43(8). (DOI: 10.1016/j.celrep.2024.114601)

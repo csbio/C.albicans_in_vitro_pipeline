@@ -9,3 +9,4 @@ src/barseq_to_reads/Library/._Candida_barcode_V16_final_annotation_GRACEGELC.txt
 src/barseq_to_reads/Library/._all_barcodes_v3.fasta
 notebooks/.ipynb_checkpoints/data_analysis_visualization-checkpoint.ipynb
 notebooks/.ipynb_checkpoints/GO_enrichment-checkpoint.ipynb
+STAR_Protocols_code_data/score_example/.Rhistory
