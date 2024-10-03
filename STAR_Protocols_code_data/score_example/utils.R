@@ -1,7 +1,50 @@
-######
-# UTILITY FUNCTIONS
-######
+###########################
+# LOAD AND INSTALL PACKAGES
+###########################
 
+# List of required packages (both CRAN and Bioconductor)
+required_packages <- c("pheatmap", "RColorBrewer", "plotrix", "limma")
+
+# Function to check, install (if missing), and load required packages
+install_and_load <- function(packages) {
+  # Install BiocManager if not already installed
+  if (!requireNamespace("BiocManager", quietly = TRUE)) {
+    install.packages("BiocManager")
+  }
+  
+  # Split packages into CRAN and Bioconductor categories
+  # - Might get a negligible warning 
+  # - because BiocManager modifies the repository settings for Bioconductor and 
+  # - CRAN packages, but it gets overridden by the user’s default CRAN repository 
+  # - (set by getOption("repos")).
+  bioc_avail <- BiocManager::available()
+  cran_packages <- packages[!(packages %in% bioc_avail)]
+  bioc_packages <- packages[packages %in% bioc_avail]
+  
+  # Check for missing CRAN packages
+  missing_cran_packages <- cran_packages[!(cran_packages %in% installed.packages()[, "Package"])]
+  if (length(missing_cran_packages)) {
+    message("Installing missing CRAN packages: ", paste(missing_cran_packages, collapse = ", "))
+    install.packages(missing_cran_packages)
+  }
+  
+  # Check for missing Bioconductor packages
+  missing_bioc_packages <- bioc_packages[!(bioc_packages %in% installed.packages()[, "Package"])]
+  if (length(missing_bioc_packages)) {
+    message("Installing missing Bioconductor packages: ", paste(missing_bioc_packages, collapse = ", "))
+    BiocManager::install(missing_bioc_packages)
+  }
+  
+  # Load all required packages
+  lapply(packages, require, character.only = TRUE)
+}
+
+# Check, install if missing, and load packages
+install_and_load(required_packages)
+
+###########################
+# UTILITY FUNCTIONS
+###########################
 
 #' Log-normalizes reads.
 #' 
@@ -296,24 +339,18 @@ get_mod_t_test_updn <- function(df_lfc, lfc_up_list, lfc_dn_list, condition_name
   } 
   
   # Merge UP & DN tags into a single dataframe
-  # df_cond <- data.frame(df_cond_up[,1], df_cond_dn[,1], df_cond_up[,2], df_cond_dn[,2], df_cond_up[,3], df_cond_dn[,3])
-  # colnames(df_cond) <- c(lfc_up_list[1], lfc_dn_list[1], lfc_up_list[2], lfc_dn_list[2], lfc_up_list[3], lfc_dn_list[3])
-  # rownames(df_cond) <- df_lfc$orf19
-  
-  # Update merging method
   df_cond <- data.frame(df_cond_up[,1], df_cond_dn[,1])
   colnames(df_cond) <- c(lfc_up_list[1], lfc_dn_list[1])
   for (i in 2:length(lfc_up_list)) {
     df_cond[, lfc_up_list[i]] <- df_cond_up[,i]
     df_cond[, lfc_dn_list[i]] <- df_cond_dn[,i]
   }
-  rownames(df_cond) <- df_lfc$orf19
+  rownames(df_cond) <- rownames(df_lfc)
   
   # Check number of NAs per mutant (must has >=3 reps), filter unqualified rows and record them
   sum_NA_list <- rowSums(is.na(df_cond))  # Will return a named num structure
   remove_list <- names(sum_NA_list[sum_NA_list>(length(lfc_up_list)*2-num_valid_rep)])
-  print(paste("Removed strains with insufficient data from condition", condition_name, sep=" "))
-  print(remove_list)
+  print(paste("Saved removed strains to", remove_direc, sep=" "))
   df_cond$plate <- df_lfc$plate
   df_remove <- df_cond[(rownames(df_cond) %in% remove_list), ]
   df_remove$mean <- rowMeans(df_remove[1:(dim(df_remove)[2]-1)], na.rm=TRUE)
@@ -395,24 +432,18 @@ get_dLFC_mod_t_test <- function(df_lfc, df_lfc_ref, lfc_up_list, lfc_dn_list, re
   df_cond_dLFC_dn <- df_cond_dn - rowMeans(df_ref_dn, na.rm=TRUE)
   
   # Merge UP & DN tags into a single dataframe
-  # df_cond <- data.frame(df_cond_dLFC_up[,1], df_cond_dLFC_dn[,1], df_cond_dLFC_up[,2], df_cond_dLFC_dn[,2], df_cond_dLFC_up[,3], df_cond_dLFC_dn[,3])
-  # colnames(df_cond) <- c(lfc_up_list[1], lfc_dn_list[1], lfc_up_list[2], lfc_dn_list[2], lfc_up_list[3], lfc_dn_list[3])
-  # rownames(df_cond) <- df_lfc$orf19
-  
-  # Update merging method
   df_cond <- data.frame(df_cond_dLFC_up[,1], df_cond_dLFC_dn[,1])
   colnames(df_cond) <- c(lfc_up_list[1], lfc_dn_list[1])
   for (i in 2:length(lfc_up_list)) {
     df_cond[, lfc_up_list[i]] <- df_cond_dLFC_up[,i]
     df_cond[, lfc_dn_list[i]] <- df_cond_dLFC_dn[,i]
   }
-  rownames(df_cond) <- df_lfc$orf19
+  rownames(df_cond) <- rownames(df_lfc)
   
   # Check number of NAs per mutant (must has >=3 reps), filter unqualified rows and record them
   sum_NA_list <- rowSums(is.na(df_cond))  # Will return a named num structure
   remove_list <- names(sum_NA_list[sum_NA_list>(length(lfc_up_list)*2-num_valid_rep)])
-  print(paste("Removed strains from condition", condition_name, sep=" "))
-  print(remove_list)
+  print(paste("Saved removed strains to", remove_direc, sep=" "))
   df_cond$plate <- df_lfc$plate
   df_remove <- df_cond[(rownames(df_cond) %in% remove_list), ]
   df_remove$mean <- rowMeans(df_remove[1:(dim(df_remove)[2]-1)], na.rm=TRUE)
