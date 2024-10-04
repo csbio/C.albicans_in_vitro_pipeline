@@ -76,7 +76,7 @@ for (group in groups) {
   # Only need to copy commands as below but change the parameter bool_compare_median_or_not to FALSE at the beginning of this script
   # Then define new output directory with correct names
   
-  # Case 2 : Compare mean LFC of every mutant to the median of mean LFC values for all mutants
+  # Case 2: Compare mean LFC of every mutant to the median of mean LFC values for all mutants
   df_modt_output <- get_mod_t_test_updn(df_lfc, lfc_up_list=paste0(df_meta_group_nodox$UP, "_LFC"),
                                         lfc_dn_list=paste0(df_meta_group_nodox$DN, "_LFC"),
                                         condition_name=group, num_valid_rep=3,

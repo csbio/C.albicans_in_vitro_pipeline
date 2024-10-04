@@ -19,6 +19,10 @@ source("utils.R")
 bool_qc <- TRUE # TRUE if we want to generate the QC plots
 nodox_qc_filter <- 50 # QC threshold - for each mutant, if its NO_DOX read is lower than this value, it will be replaced as NA to be filtered form downstream analysis
 
+# Set QC directory
+qc_output_dir = "./output/qc/"
+if (!dir.exists(qc_output_dir)) { dir.create(qc_output_dir, recursive = TRUE) }
+
 # Read the metatable that guides the column names to refer to
 meta_dir = "./input/metatable_example.txt"
 df_meta <- read.csv(file=meta_dir, header=TRUE, sep='\t')
@@ -46,15 +50,11 @@ for (group in groups) {
 # For one sample moderated t-test on each condition, integrating UP and DN tags
 ################################################################################
 
-# Set QC directory
-qc_output_dir = "./output/qc/"
-if (!dir.exists(qc_output_dir)) { dir.create(qc_output_dir, recursive = TRUE) }
-
 # Initialize lists to collect LFC dataframes for conditions (only needed for QC)
 up_df_lfc_list <- c()
 dn_df_lfc_list <- c()
 
-# Iterate the scoring process through conditions
+# Iterate the QC process through conditions
 for (group in groups) {
   print(paste("Condition:",group))
   df_meta_group <- df_meta[df_meta$condition==group, ]
@@ -110,7 +110,6 @@ for (group in groups) {
     up_df_lfc_list <- c(up_df_lfc_list, df_lfc_updn$lfc_up)
     dn_df_lfc_list <- c(dn_df_lfc_list, df_lfc_updn$lfc_dn)
   }
-  
 }
 
 # Plot global LFC PCC heatmap
@@ -171,10 +170,6 @@ if (isTRUE(bool_qc)) {
 # integrating UP and DN tags
 ################################################################################
 
-# Initialize lists to collect dLFC dataframes for conditions (only needed for QC)
-up_df_dlfc_list <- c()
-dn_df_dlfc_list <- c()
-
 # Utilize all the biological replicates (standard YNB) to form the reference tag lists and provide more precise reference
 ref_group_name = 'YNB'
 df_meta_ref_group <- df_meta[df_meta$condition==ref_group_name, ]
@@ -187,11 +182,15 @@ df_lfc_ref <- data_preprocess_get_lfc(df_all, ref_dox_list, ref_no_dox_list, no_
 REF_UP_LFC <- paste0(df_meta_ref_nodox$UP, "_LFC")
 REF_DN_LFC <- paste0(df_meta_ref_nodox$DN, "_LFC")
 
+# Initialize lists to collect dLFC dataframes for conditions (only needed for QC)
+up_df_dlfc_list <- c()
+dn_df_dlfc_list <- c()
+
 # Iterate the scoring process through conditions
 groups <- unique(df_meta$condition)
 dLFC_groups <- groups[groups != ref_group_name]
 for (group in dLFC_groups) {
-  print(paste("Condition:",group))
+  print(paste("Condition:", group))
   df_meta_group <- df_meta[df_meta$condition==group, ]
   df_meta_group_dox <- df_meta_group[df_meta_group$DOX==TRUE, ]
   df_meta_group_nodox <- df_meta_group[df_meta_group$DOX==FALSE, ]
