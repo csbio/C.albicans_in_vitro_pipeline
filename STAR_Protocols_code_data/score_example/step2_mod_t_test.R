@@ -32,7 +32,7 @@ common_col = unique(df_meta$common_column)[1]
 
 # Start the pipeline by pre-processing the input data to get LFC
 read_dir = "./input/sum_data.csv"
-df_all <- read.csv(read_dir, header=TRUE)
+df_all <- read.csv(file=read_dir, header=TRUE)
 
 ################################################################################
 # 1. Moderated t-test for single condition evaluation

@@ -31,7 +31,7 @@ df_meta <- read.csv(file=meta_dir, header=TRUE)
 
 # Start the pipeline by pre-processing the input data to get LFC
 read_dir = "./input/sum_data.csv"
-df_all <- read.csv(read_dir, header=TRUE)
+df_all <- read.csv(file=read_dir, header=TRUE)
 
 # Pre-define the column names of the LFC values based on input, UP/DN separately
 groups <- unique(df_meta$condition)
