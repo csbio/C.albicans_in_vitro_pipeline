@@ -1,0 +1,147 @@
+# Required hardware:
+# A computer running macOS Sonoma 14.5 or earlier with an Intel processor. 
+
+# All terminal commands are annotated with a starting $. Copy everything after the $, but DO NOT copy the $ symbol.
+
+# -----------------------------
+# -----------------------------
+
+# Download and install required programs:
+
+# Install Homebrew.
+$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" 
+
+# --
+
+# Install Git.
+$ brew install git
+
+# --
+
+# Install bowtie.
+$ brew tap brewsci/bio
+$ brew install bowtie
+
+# --
+
+# Download Java SE Development Kit 7u80 (1.7) for Mac OS X. 
+# https://www.oracle.com/ca-en/java/technologies/javase/javase7-archive-downloads.html 
+
+# --
+
+# Start bash shell. 
+$ bash
+
+# -----------------------------
+# -----------------------------
+
+# Prepare sequence library (ONLY REQUIRED IF USING POOLED STRAINS OTHER THAN GRACE V1&V2)
+
+# Open "Candida barcode V16 final annotation.xlsx" (downloaded from GitHub repository) with excel.
+# Input required information in “Candida barcode V16 final annotation_GRACEV1V2.xlsx" found in Library directory: Strain.ID, orf19, feature name, UPTAG Sequence, DOWNTAG Sequence. (Row order does not matter.) 
+# Save as a Tab delimited text file.
+# Create a plain text file named “all_barcodes_v3.fasta” in the Library directory and open file with a plain text editor. 
+# Input the UPTAG and DNTAG barcode sequences in the following format:
+	>StrainID_UP
+	[barcode sequence]
+	>StrainID_DOWN
+	[barcode sequence] 
+# For example:
+	>Strain123_UP
+	GCGGAACCGGACTAATCTACGTA
+	>Strain123_DOWN
+	GCTGGACTACCATGTACTGCATC
+
+# --
+
+#Generate the indexed sequence library. 
+$ cd C.albicans_in_vitro_pipeline/STAR_Protocols_code_data/assign_example/Library/
+$ bowtie-build all_barcodes_v3.fasta all_barcodes_v3 # note: this step will replace existing indexed sequence library files. Save those elsewhere if still needed 
+
+# -----------------------------
+# -----------------------------
+
+# Download sequencing files (.fastq.gz) from sequencing facility servers. 
+
+# -----------------------------
+# -----------------------------
+
+# Assign barcodes to strains:
+
+# Navigate to directory containing raw sequencing data files. Do not decompress the .fastq.gz files.
+$ cd C.albicans_in_vitro_pipeline/STAR_Protocols_code_data/assign_example/input/
+$ ls # check that you are in the right directory with the correct files 
+
+# --
+
+# Set environment variable.
+$ export BOWTIE_INDEXES=C.albicans_in_vitro_pipeline/STAR_Protocols_code_data/assign_example/Library/
+
+# --
+
+# Generate output directory. Copy and paste below to terminal as is.
+
+ODIR=$(date +'MappingOutput-%F')
+if [ ! -d ${ODIR} ]
+then
+   mkdir ${ODIR}
+fi
+
+# --
+
+# Annotate reads to barcodes. Copy and paste below to terminal as is.
+
+for sample in $( find ./ -name '*.fastq.gz' -print | xargs basename | sed -E 's/_R1_001.fastq.gz//' | sort | uniq )
+do
+
+   oFile=$(echo $sample".map");
+   unmapped=$(echo $sample".unmapped");
+
+   echo $sample"->"$oFile;
+   fList=`find ./ -name $sample'*.fastq.gz' -print | tr '\n' ' ' | sed -e 's/,$//g'`
+
+   echo "File List:  "$fList >> ${ODIR}/mapping.log 2>&1
+
+   # Run bowtie, using PERL script to find sequence-of-interest in reads
+   gzcat $fList | bowtie -p 3 -t all_barcodes_v3 -l 20 -m 1 -n 1 --best --strata --un ${ODIR}/$unmapped - ${ODIR}/$oFile >> ${ODIR}/mapping.log 2>&1
+
+   ###
+   ## Add in error check for bowtie
+   ###
+
+done
+
+# --
+
+# Disable gate keeper. Enter password of your computer, it will not appear as you type, just continue and press enter when finished. 
+$ sudo spctl --master-disable
+
+# --
+
+# Load Java 1.7.
+$ export JAVA_HOME=$(/usr/libexec/java_home -v 1.7)
+
+# --
+
+# Summarize alignments. 
+
+ls -l ${ODIR}/*.map > /dev/null 2>&1    
+if [ "$?" = "0" ]; then
+   cd ${ODIR}                          
+   java -Xmx4096M -jar C.albicans_in_vitro_pipeline/STAR_Protocols_code_data/assign_example/Library/summarizeAlignments.jar C.albicans_in_vitro_pipeline/STAR_Protocols_code_data/assign_example/Library/Candida_barcode_V16_final_annotation_GRACEV1V2.txt `find ./ -name '*.map' -print | tr '\n' ','`         
+
+   if [ "$?" > "0" ]; then
+      echo "There was an error merging files!"
+      cd -
+      exit 1
+   fi
+
+   cd -
+else
+   echo "No files to merge."
+fi
+
+# -----------------------------
+# -----------------------------
+
+# END -- This should produce a "merged_results.txt" file inside the MappingOutput-YYY-MM-DD directory containing read counts for each barcode and corresponding gene. 
