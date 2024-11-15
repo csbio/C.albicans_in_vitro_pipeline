@@ -64,6 +64,9 @@ $ bowtie-build all_barcodes_v3.fasta all_barcodes_v3 # note: this step will repl
 # Download sequencing files (.fastq.gz) from sequencing facility servers. 
 
 # -----------------------------
+# For macOS users, it is imperative that the hard drive is GUID partitioned and APFS format. 
+# Apple duplicate files (._FileName) created on drives formatted to alternatives such as ExFAT
+# can cause errors when running the following script
 # -----------------------------
 
 # Assign barcodes to strains:
