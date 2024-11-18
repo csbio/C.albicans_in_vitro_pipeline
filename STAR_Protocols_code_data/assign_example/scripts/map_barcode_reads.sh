@@ -10,7 +10,7 @@ fi
 
 # Annotate reads to barcodes
 
-for sample in $( find ./ -name '*.fastq.gz' -print | xargs -I {} basename {} | sed -E 's/_R1_001.fastq.gz//' | sort | uniq )
+for sample in $( find ./ -name '*.fastq.gz' ! -name '._*.fastq.gz' -print | xargs -I {} basename {} | sed -E 's/_R1_001.fastq.gz//' | sort | uniq )
 do
 
    oFile=$(echo $sample".map");
