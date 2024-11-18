@@ -21,8 +21,8 @@ bool_normalize_variance <- TRUE # TRUE if we want to apply variance normalizatio
 nodox_qc_filter <- 50 # QC threshold - for each mutant, if its NO_DOX read is lower than this value, it will be replaced as NA to be filtered form downstream analysis
 
 # Read the metatable that guides the column names to refer to
-meta_dir = "./input/metatable.csv"
-df_meta <- read.csv(file=meta_dir, header=TRUE)
+meta_dir = "./input/metatable.txt"
+df_meta <- read.csv(file=meta_dir, header=TRUE, sep='\t')
 
 # Get the column names from the meta table
 orf19_col = unique(df_meta$orf19_column)[1]
@@ -31,8 +31,8 @@ feature_col = unique(df_meta$feature_column)[1]
 common_col = unique(df_meta$common_column)[1]
 
 # Start the pipeline by pre-processing the input data to get LFC
-read_dir = "./input/sum_data.csv"
-df_all <- read.csv(file=read_dir, header=TRUE)
+read_dir = "./input/sum_data.txt"
+df_all <- read.csv(file=read_dir, header=TRUE, sep='\t')
 
 ################################################################################
 # 1. Moderated t-test for single condition evaluation

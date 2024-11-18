@@ -1,0 +1,2016 @@
+File List:  ./37_1_A_S7_L001_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:04
+# reads processed: 1471582
+# reads with at least one alignment: 1306898 (88.81%)
+# reads that failed to align: 164684 (11.19%)
+# reads with alignments suppressed due to -m: 4411 (0.30%)
+Reported 1302487 alignments
+Time searching: 00:00:05
+Overall time: 00:00:05
+File List:  ./37_1_A_S7_L002_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1442964
+# reads with at least one alignment: 1283966 (88.98%)
+# reads that failed to align: 158998 (11.02%)
+# reads with alignments suppressed due to -m: 4283 (0.30%)
+Reported 1279683 alignments
+Time searching: 00:00:05
+Overall time: 00:00:05
+File List:  ./37_1_A_S7_L003_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1476100
+# reads with at least one alignment: 1309815 (88.73%)
+# reads that failed to align: 166285 (11.27%)
+# reads with alignments suppressed due to -m: 4462 (0.30%)
+Reported 1305353 alignments
+Time searching: 00:00:05
+Overall time: 00:00:05
+File List:  ./37_1_A_S7_L004_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:04
+# reads processed: 1440169
+# reads with at least one alignment: 1277410 (88.70%)
+# reads that failed to align: 162759 (11.30%)
+# reads with alignments suppressed due to -m: 4213 (0.29%)
+Reported 1273197 alignments
+Time searching: 00:00:05
+Overall time: 00:00:05
+File List:  ./37_1_B_S8_L001_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:04
+# reads processed: 1480158
+# reads with at least one alignment: 1313370 (88.73%)
+# reads that failed to align: 166788 (11.27%)
+# reads with alignments suppressed due to -m: 3949 (0.27%)
+Reported 1309421 alignments
+Time searching: 00:00:05
+Overall time: 00:00:05
+File List:  ./37_1_B_S8_L002_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:04
+# reads processed: 1447231
+# reads with at least one alignment: 1285480 (88.82%)
+# reads that failed to align: 161751 (11.18%)
+# reads with alignments suppressed due to -m: 3857 (0.27%)
+Reported 1281623 alignments
+Time searching: 00:00:06
+Overall time: 00:00:06
+File List:  ./37_1_B_S8_L003_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1486284
+# reads with at least one alignment: 1316293 (88.56%)
+# reads that failed to align: 169991 (11.44%)
+# reads with alignments suppressed due to -m: 3921 (0.26%)
+Reported 1312372 alignments
+Time searching: 00:00:05
+Overall time: 00:00:05
+File List:  ./37_1_B_S8_L004_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1445725
+# reads with at least one alignment: 1280690 (88.58%)
+# reads that failed to align: 165035 (11.42%)
+# reads with alignments suppressed due to -m: 3803 (0.26%)
+Reported 1276887 alignments
+Time searching: 00:00:05
+Overall time: 00:00:05
+File List:  ./37_1_C_S9_L001_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:04
+# reads processed: 1594231
+# reads with at least one alignment: 1418404 (88.97%)
+# reads that failed to align: 175827 (11.03%)
+# reads with alignments suppressed due to -m: 4688 (0.29%)
+Reported 1413716 alignments
+Time searching: 00:00:06
+Overall time: 00:00:06
+File List:  ./37_1_C_S9_L002_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:04
+# reads processed: 1565253
+# reads with at least one alignment: 1394546 (89.09%)
+# reads that failed to align: 170707 (10.91%)
+# reads with alignments suppressed due to -m: 4561 (0.29%)
+Reported 1389985 alignments
+Time searching: 00:00:05
+Overall time: 00:00:05
+File List:  ./37_1_C_S9_L003_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1600732
+# reads with at least one alignment: 1421765 (88.82%)
+# reads that failed to align: 178967 (11.18%)
+# reads with alignments suppressed due to -m: 4666 (0.29%)
+Reported 1417099 alignments
+Time searching: 00:00:05
+Overall time: 00:00:05
+File List:  ./37_1_C_S9_L004_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:04
+# reads processed: 1560322
+# reads with at least one alignment: 1385354 (88.79%)
+# reads that failed to align: 174968 (11.21%)
+# reads with alignments suppressed due to -m: 4606 (0.30%)
+Reported 1380748 alignments
+Time searching: 00:00:05
+Overall time: 00:00:05
+File List:  ./37_1_DOX_A_S10_L001_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1459995
+# reads with at least one alignment: 1305392 (89.41%)
+# reads that failed to align: 154603 (10.59%)
+# reads with alignments suppressed due to -m: 4761 (0.33%)
+Reported 1300631 alignments
+Time searching: 00:00:05
+Overall time: 00:00:05
+File List:  ./37_1_DOX_A_S10_L002_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1434345
+# reads with at least one alignment: 1283843 (89.51%)
+# reads that failed to align: 150502 (10.49%)
+# reads with alignments suppressed due to -m: 4590 (0.32%)
+Reported 1279253 alignments
+Time searching: 00:00:05
+Overall time: 00:00:05
+File List:  ./37_1_DOX_A_S10_L003_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:04
+# reads processed: 1462182
+# reads with at least one alignment: 1305797 (89.30%)
+# reads that failed to align: 156385 (10.70%)
+# reads with alignments suppressed due to -m: 4874 (0.33%)
+Reported 1300923 alignments
+Time searching: 00:00:05
+Overall time: 00:00:05
+File List:  ./37_1_DOX_A_S10_L004_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1428443
+# reads with at least one alignment: 1275037 (89.26%)
+# reads that failed to align: 153406 (10.74%)
+# reads with alignments suppressed due to -m: 4524 (0.32%)
+Reported 1270513 alignments
+Time searching: 00:00:05
+Overall time: 00:00:05
+File List:  ./37_1_DOX_B_S11_L001_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1549285
+# reads with at least one alignment: 1374218 (88.70%)
+# reads that failed to align: 175067 (11.30%)
+# reads with alignments suppressed due to -m: 4764 (0.31%)
+Reported 1369454 alignments
+Time searching: 00:00:05
+Overall time: 00:00:05
+File List:  ./37_1_DOX_B_S11_L002_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:04
+# reads processed: 1517561
+# reads with at least one alignment: 1348150 (88.84%)
+# reads that failed to align: 169411 (11.16%)
+# reads with alignments suppressed due to -m: 4688 (0.31%)
+Reported 1343462 alignments
+Time searching: 00:00:05
+Overall time: 00:00:05
+File List:  ./37_1_DOX_B_S11_L003_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1549210
+# reads with at least one alignment: 1372717 (88.61%)
+# reads that failed to align: 176493 (11.39%)
+# reads with alignments suppressed due to -m: 4654 (0.30%)
+Reported 1368063 alignments
+Time searching: 00:00:05
+Overall time: 00:00:05
+File List:  ./37_1_DOX_B_S11_L004_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:04
+# reads processed: 1514542
+# reads with at least one alignment: 1341193 (88.55%)
+# reads that failed to align: 173349 (11.45%)
+# reads with alignments suppressed due to -m: 4589 (0.30%)
+Reported 1336604 alignments
+Time searching: 00:00:05
+Overall time: 00:00:05
+File List:  ./37_1_DOX_C_S12_L001_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1492320
+# reads with at least one alignment: 1335984 (89.52%)
+# reads that failed to align: 156336 (10.48%)
+# reads with alignments suppressed due to -m: 4587 (0.31%)
+Reported 1331397 alignments
+Time searching: 00:00:05
+Overall time: 00:00:05
+File List:  ./37_1_DOX_C_S12_L002_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1463814
+# reads with at least one alignment: 1311758 (89.61%)
+# reads that failed to align: 152056 (10.39%)
+# reads with alignments suppressed due to -m: 4513 (0.31%)
+Reported 1307245 alignments
+Time searching: 00:00:05
+Overall time: 00:00:05
+File List:  ./37_1_DOX_C_S12_L003_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:04
+# reads processed: 1498136
+# reads with at least one alignment: 1339784 (89.43%)
+# reads that failed to align: 158352 (10.57%)
+# reads with alignments suppressed due to -m: 4726 (0.32%)
+Reported 1335058 alignments
+Time searching: 00:00:05
+Overall time: 00:00:05
+File List:  ./37_1_DOX_C_S12_L004_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:04
+# reads processed: 1463184
+# reads with at least one alignment: 1306693 (89.30%)
+# reads that failed to align: 156491 (10.70%)
+# reads with alignments suppressed due to -m: 4521 (0.31%)
+Reported 1302172 alignments
+Time searching: 00:00:05
+Overall time: 00:00:05
+File List:  ./37_2_A_S25_L001_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:02
+# reads processed: 932212
+# reads with at least one alignment: 824537 (88.45%)
+# reads that failed to align: 107675 (11.55%)
+# reads with alignments suppressed due to -m: 2615 (0.28%)
+Reported 821922 alignments
+Time searching: 00:00:03
+Overall time: 00:00:03
+File List:  ./37_2_A_S25_L002_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:02
+# reads processed: 908032
+# reads with at least one alignment: 802884 (88.42%)
+# reads that failed to align: 105148 (11.58%)
+# reads with alignments suppressed due to -m: 2566 (0.28%)
+Reported 800318 alignments
+Time searching: 00:00:03
+Overall time: 00:00:03
+File List:  ./37_2_A_S25_L003_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 932255
+# reads with at least one alignment: 823267 (88.31%)
+# reads that failed to align: 108988 (11.69%)
+# reads with alignments suppressed due to -m: 2565 (0.28%)
+Reported 820702 alignments
+Time searching: 00:00:04
+Overall time: 00:00:04
+File List:  ./37_2_A_S25_L004_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:02
+# reads processed: 913701
+# reads with at least one alignment: 808019 (88.43%)
+# reads that failed to align: 105682 (11.57%)
+# reads with alignments suppressed due to -m: 2636 (0.29%)
+Reported 805383 alignments
+Time searching: 00:00:03
+Overall time: 00:00:03
+File List:  ./37_2_B_S26_L001_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1075747
+# reads with at least one alignment: 959892 (89.23%)
+# reads that failed to align: 115855 (10.77%)
+# reads with alignments suppressed due to -m: 3206 (0.30%)
+Reported 956686 alignments
+Time searching: 00:00:04
+Overall time: 00:00:04
+File List:  ./37_2_B_S26_L002_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1049462
+# reads with at least one alignment: 936601 (89.25%)
+# reads that failed to align: 112861 (10.75%)
+# reads with alignments suppressed due to -m: 3104 (0.30%)
+Reported 933497 alignments
+Time searching: 00:00:04
+Overall time: 00:00:04
+File List:  ./37_2_B_S26_L003_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1074295
+# reads with at least one alignment: 956673 (89.05%)
+# reads that failed to align: 117622 (10.95%)
+# reads with alignments suppressed due to -m: 3225 (0.30%)
+Reported 953448 alignments
+Time searching: 00:00:04
+Overall time: 00:00:04
+File List:  ./37_2_B_S26_L004_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1052069
+# reads with at least one alignment: 938981 (89.25%)
+# reads that failed to align: 113088 (10.75%)
+# reads with alignments suppressed due to -m: 3188 (0.30%)
+Reported 935793 alignments
+Time searching: 00:00:04
+Overall time: 00:00:04
+File List:  ./37_2_C_S27_L001_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:02
+# reads processed: 1061267
+# reads with at least one alignment: 945081 (89.05%)
+# reads that failed to align: 116186 (10.95%)
+# reads with alignments suppressed due to -m: 2872 (0.27%)
+Reported 942209 alignments
+Time searching: 00:00:03
+Overall time: 00:00:03
+File List:  ./37_2_C_S27_L002_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:02
+# reads processed: 1032083
+# reads with at least one alignment: 918424 (88.99%)
+# reads that failed to align: 113659 (11.01%)
+# reads with alignments suppressed due to -m: 2778 (0.27%)
+Reported 915646 alignments
+Time searching: 00:00:03
+Overall time: 00:00:03
+File List:  ./37_2_C_S27_L003_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:01
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:02
+# reads processed: 1055187
+# reads with at least one alignment: 937423 (88.84%)
+# reads that failed to align: 117764 (11.16%)
+# reads with alignments suppressed due to -m: 2876 (0.27%)
+Reported 934547 alignments
+Time searching: 00:00:04
+Overall time: 00:00:04
+File List:  ./37_2_C_S27_L004_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:02
+# reads processed: 1032001
+# reads with at least one alignment: 919968 (89.14%)
+# reads that failed to align: 112033 (10.86%)
+# reads with alignments suppressed due to -m: 2757 (0.27%)
+Reported 917211 alignments
+Time searching: 00:00:03
+Overall time: 00:00:04
+File List:  ./37_2_DOX_A_S28_L001_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1209529
+# reads with at least one alignment: 1072160 (88.64%)
+# reads that failed to align: 137369 (11.36%)
+# reads with alignments suppressed due to -m: 3739 (0.31%)
+Reported 1068421 alignments
+Time searching: 00:00:04
+Overall time: 00:00:04
+File List:  ./37_2_DOX_A_S28_L002_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:02
+# reads processed: 1175124
+# reads with at least one alignment: 1041554 (88.63%)
+# reads that failed to align: 133570 (11.37%)
+# reads with alignments suppressed due to -m: 3615 (0.31%)
+Reported 1037939 alignments
+Time searching: 00:00:04
+Overall time: 00:00:04
+File List:  ./37_2_DOX_A_S28_L003_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1206882
+# reads with at least one alignment: 1068764 (88.56%)
+# reads that failed to align: 138118 (11.44%)
+# reads with alignments suppressed due to -m: 3771 (0.31%)
+Reported 1064993 alignments
+Time searching: 00:00:04
+Overall time: 00:00:04
+File List:  ./37_2_DOX_A_S28_L004_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1183213
+# reads with at least one alignment: 1049309 (88.68%)
+# reads that failed to align: 133904 (11.32%)
+# reads with alignments suppressed due to -m: 3770 (0.32%)
+Reported 1045539 alignments
+Time searching: 00:00:04
+Overall time: 00:00:04
+File List:  ./37_2_DOX_B_S29_L001_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:02
+# reads processed: 994546
+# reads with at least one alignment: 887005 (89.19%)
+# reads that failed to align: 107541 (10.81%)
+# reads with alignments suppressed due to -m: 3175 (0.32%)
+Reported 883830 alignments
+Time searching: 00:00:03
+Overall time: 00:00:03
+File List:  ./37_2_DOX_B_S29_L002_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:02
+# reads processed: 968320
+# reads with at least one alignment: 862934 (89.12%)
+# reads that failed to align: 105386 (10.88%)
+# reads with alignments suppressed due to -m: 2925 (0.30%)
+Reported 860009 alignments
+Time searching: 00:00:03
+Overall time: 00:00:03
+File List:  ./37_2_DOX_B_S29_L003_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:02
+# reads processed: 996115
+# reads with at least one alignment: 885563 (88.90%)
+# reads that failed to align: 110552 (11.10%)
+# reads with alignments suppressed due to -m: 3128 (0.31%)
+Reported 882435 alignments
+Time searching: 00:00:03
+Overall time: 00:00:03
+File List:  ./37_2_DOX_B_S29_L004_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:02
+# reads processed: 968081
+# reads with at least one alignment: 864129 (89.26%)
+# reads that failed to align: 103952 (10.74%)
+# reads with alignments suppressed due to -m: 2969 (0.31%)
+Reported 861160 alignments
+Time searching: 00:00:03
+Overall time: 00:00:03
+File List:  ./37_2_DOX_C_S30_L001_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1118392
+# reads with at least one alignment: 997202 (89.16%)
+# reads that failed to align: 121190 (10.84%)
+# reads with alignments suppressed due to -m: 4647 (0.42%)
+Reported 992555 alignments
+Time searching: 00:00:04
+Overall time: 00:00:04
+File List:  ./37_2_DOX_C_S30_L002_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1085613
+# reads with at least one alignment: 968133 (89.18%)
+# reads that failed to align: 117480 (10.82%)
+# reads with alignments suppressed due to -m: 4547 (0.42%)
+Reported 963586 alignments
+Time searching: 00:00:04
+Overall time: 00:00:04
+File List:  ./37_2_DOX_C_S30_L003_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1117373
+# reads with at least one alignment: 994563 (89.01%)
+# reads that failed to align: 122810 (10.99%)
+# reads with alignments suppressed due to -m: 4615 (0.41%)
+Reported 989948 alignments
+Time searching: 00:00:04
+Overall time: 00:00:04
+File List:  ./37_2_DOX_C_S30_L004_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1094085
+# reads with at least one alignment: 975863 (89.19%)
+# reads that failed to align: 118222 (10.81%)
+# reads with alignments suppressed due to -m: 4560 (0.42%)
+Reported 971303 alignments
+Time searching: 00:00:04
+Overall time: 00:00:04
+File List:  ./YNB1_A_S1_L001_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1101973
+# reads with at least one alignment: 974107 (88.40%)
+# reads that failed to align: 127866 (11.60%)
+# reads with alignments suppressed due to -m: 3806 (0.35%)
+Reported 970301 alignments
+Time searching: 00:00:04
+Overall time: 00:00:04
+File List:  ./YNB1_A_S1_L002_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1086216
+# reads with at least one alignment: 960839 (88.46%)
+# reads that failed to align: 125377 (11.54%)
+# reads with alignments suppressed due to -m: 3635 (0.33%)
+Reported 957204 alignments
+Time searching: 00:00:04
+Overall time: 00:00:04
+File List:  ./YNB1_A_S1_L003_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1087840
+# reads with at least one alignment: 962933 (88.52%)
+# reads that failed to align: 124907 (11.48%)
+# reads with alignments suppressed due to -m: 3748 (0.34%)
+Reported 959185 alignments
+Time searching: 00:00:04
+Overall time: 00:00:04
+File List:  ./YNB1_A_S1_L004_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1083546
+# reads with at least one alignment: 958225 (88.43%)
+# reads that failed to align: 125321 (11.57%)
+# reads with alignments suppressed due to -m: 3616 (0.33%)
+Reported 954609 alignments
+Time searching: 00:00:04
+Overall time: 00:00:04
+File List:  ./YNB1_B_S2_L001_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1098654
+# reads with at least one alignment: 981892 (89.37%)
+# reads that failed to align: 116762 (10.63%)
+# reads with alignments suppressed due to -m: 3053 (0.28%)
+Reported 978839 alignments
+Time searching: 00:00:04
+Overall time: 00:00:04
+File List:  ./YNB1_B_S2_L002_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1084366
+# reads with at least one alignment: 968535 (89.32%)
+# reads that failed to align: 115831 (10.68%)
+# reads with alignments suppressed due to -m: 3056 (0.28%)
+Reported 965479 alignments
+Time searching: 00:00:04
+Overall time: 00:00:04
+File List:  ./YNB1_B_S2_L003_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1094873
+# reads with at least one alignment: 978818 (89.40%)
+# reads that failed to align: 116055 (10.60%)
+# reads with alignments suppressed due to -m: 3111 (0.28%)
+Reported 975707 alignments
+Time searching: 00:00:04
+Overall time: 00:00:04
+File List:  ./YNB1_B_S2_L004_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1081992
+# reads with at least one alignment: 966258 (89.30%)
+# reads that failed to align: 115734 (10.70%)
+# reads with alignments suppressed due to -m: 3034 (0.28%)
+Reported 963224 alignments
+Time searching: 00:00:04
+Overall time: 00:00:04
+File List:  ./YNB1_C_S3_L001_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1211476
+# reads with at least one alignment: 1081681 (89.29%)
+# reads that failed to align: 129795 (10.71%)
+# reads with alignments suppressed due to -m: 3218 (0.27%)
+Reported 1078463 alignments
+Time searching: 00:00:05
+Overall time: 00:00:05
+File List:  ./YNB1_C_S3_L002_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1191904
+# reads with at least one alignment: 1064186 (89.28%)
+# reads that failed to align: 127718 (10.72%)
+# reads with alignments suppressed due to -m: 3156 (0.26%)
+Reported 1061030 alignments
+Time searching: 00:00:04
+Overall time: 00:00:04
+File List:  ./YNB1_C_S3_L003_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1171621
+# reads with at least one alignment: 1046526 (89.32%)
+# reads that failed to align: 125095 (10.68%)
+# reads with alignments suppressed due to -m: 3124 (0.27%)
+Reported 1043402 alignments
+Time searching: 00:00:04
+Overall time: 00:00:04
+File List:  ./YNB1_C_S3_L004_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:02
+# reads processed: 1183033
+# reads with at least one alignment: 1054697 (89.15%)
+# reads that failed to align: 128336 (10.85%)
+# reads with alignments suppressed due to -m: 3238 (0.27%)
+Reported 1051459 alignments
+Time searching: 00:00:04
+Overall time: 00:00:04
+File List:  ./YNB1_DOX_A_S4_L001_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1412043
+# reads with at least one alignment: 1258555 (89.13%)
+# reads that failed to align: 153488 (10.87%)
+# reads with alignments suppressed due to -m: 4250 (0.30%)
+Reported 1254305 alignments
+Time searching: 00:00:05
+Overall time: 00:00:05
+File List:  ./YNB1_DOX_A_S4_L002_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1398923
+# reads with at least one alignment: 1247617 (89.18%)
+# reads that failed to align: 151306 (10.82%)
+# reads with alignments suppressed due to -m: 4395 (0.31%)
+Reported 1243222 alignments
+Time searching: 00:00:05
+Overall time: 00:00:05
+File List:  ./YNB1_DOX_A_S4_L003_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1414867
+# reads with at least one alignment: 1261813 (89.18%)
+# reads that failed to align: 153054 (10.82%)
+# reads with alignments suppressed due to -m: 4389 (0.31%)
+Reported 1257424 alignments
+Time searching: 00:00:05
+Overall time: 00:00:05
+File List:  ./YNB1_DOX_A_S4_L004_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1399039
+# reads with at least one alignment: 1247419 (89.16%)
+# reads that failed to align: 151620 (10.84%)
+# reads with alignments suppressed due to -m: 4348 (0.31%)
+Reported 1243071 alignments
+Time searching: 00:00:05
+Overall time: 00:00:05
+File List:  ./YNB1_DOX_B_S5_L001_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1417211
+# reads with at least one alignment: 1266004 (89.33%)
+# reads that failed to align: 151207 (10.67%)
+# reads with alignments suppressed due to -m: 4732 (0.33%)
+Reported 1261272 alignments
+Time searching: 00:00:05
+Overall time: 00:00:05
+File List:  ./YNB1_DOX_B_S5_L002_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:04
+# reads processed: 1403881
+# reads with at least one alignment: 1254633 (89.37%)
+# reads that failed to align: 149248 (10.63%)
+# reads with alignments suppressed due to -m: 4658 (0.33%)
+Reported 1249975 alignments
+Time searching: 00:00:05
+Overall time: 00:00:05
+File List:  ./YNB1_DOX_B_S5_L003_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:04
+# reads processed: 1418845
+# reads with at least one alignment: 1267124 (89.31%)
+# reads that failed to align: 151721 (10.69%)
+# reads with alignments suppressed due to -m: 4842 (0.34%)
+Reported 1262282 alignments
+Time searching: 00:00:05
+Overall time: 00:00:05
+File List:  ./YNB1_DOX_B_S5_L004_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1401140
+# reads with at least one alignment: 1251536 (89.32%)
+# reads that failed to align: 149604 (10.68%)
+# reads with alignments suppressed due to -m: 4678 (0.33%)
+Reported 1246858 alignments
+Time searching: 00:00:04
+Overall time: 00:00:04
+File List:  ./YNB1_DOX_C_S6_L001_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:01
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1488661
+# reads with at least one alignment: 1326732 (89.12%)
+# reads that failed to align: 161929 (10.88%)
+# reads with alignments suppressed due to -m: 4973 (0.33%)
+Reported 1321759 alignments
+Time searching: 00:00:06
+Overall time: 00:00:06
+File List:  ./YNB1_DOX_C_S6_L002_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:04
+# reads processed: 1470066
+# reads with at least one alignment: 1311578 (89.22%)
+# reads that failed to align: 158488 (10.78%)
+# reads with alignments suppressed due to -m: 4978 (0.34%)
+Reported 1306600 alignments
+Time searching: 00:00:05
+Overall time: 00:00:05
+File List:  ./YNB1_DOX_C_S6_L003_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:04
+# reads processed: 1492514
+# reads with at least one alignment: 1330843 (89.17%)
+# reads that failed to align: 161671 (10.83%)
+# reads with alignments suppressed due to -m: 4933 (0.33%)
+Reported 1325910 alignments
+Time searching: 00:00:05
+Overall time: 00:00:05
+File List:  ./YNB1_DOX_C_S6_L004_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:01
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1470119
+# reads with at least one alignment: 1310181 (89.12%)
+# reads that failed to align: 159938 (10.88%)
+# reads with alignments suppressed due to -m: 4929 (0.34%)
+Reported 1305252 alignments
+Time searching: 00:00:06
+Overall time: 00:00:06
+File List:  ./YNB2_A_S1_L001_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1015608
+# reads with at least one alignment: 901286 (88.74%)
+# reads that failed to align: 114322 (11.26%)
+# reads with alignments suppressed due to -m: 2658 (0.26%)
+Reported 898628 alignments
+Time searching: 00:00:04
+Overall time: 00:00:04
+File List:  ./YNB2_A_S1_L002_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:02
+# reads processed: 983326
+# reads with at least one alignment: 872744 (88.75%)
+# reads that failed to align: 110582 (11.25%)
+# reads with alignments suppressed due to -m: 2520 (0.26%)
+Reported 870224 alignments
+Time searching: 00:00:03
+Overall time: 00:00:03
+File List:  ./YNB2_A_S1_L003_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1011530
+# reads with at least one alignment: 896148 (88.59%)
+# reads that failed to align: 115382 (11.41%)
+# reads with alignments suppressed due to -m: 2527 (0.25%)
+Reported 893621 alignments
+Time searching: 00:00:04
+Overall time: 00:00:04
+File List:  ./YNB2_A_S1_L004_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 987068
+# reads with at least one alignment: 876584 (88.81%)
+# reads that failed to align: 110484 (11.19%)
+# reads with alignments suppressed due to -m: 2464 (0.25%)
+Reported 874120 alignments
+Time searching: 00:00:04
+Overall time: 00:00:04
+File List:  ./YNB2_B_S2_L001_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:02
+# reads processed: 1044341
+# reads with at least one alignment: 934440 (89.48%)
+# reads that failed to align: 109901 (10.52%)
+# reads with alignments suppressed due to -m: 2730 (0.26%)
+Reported 931710 alignments
+Time searching: 00:00:03
+Overall time: 00:00:03
+File List:  ./YNB2_B_S2_L002_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:02
+# reads processed: 1010685
+# reads with at least one alignment: 905135 (89.56%)
+# reads that failed to align: 105550 (10.44%)
+# reads with alignments suppressed due to -m: 2563 (0.25%)
+Reported 902572 alignments
+Time searching: 00:00:03
+Overall time: 00:00:03
+File List:  ./YNB2_B_S2_L003_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1042589
+# reads with at least one alignment: 930927 (89.29%)
+# reads that failed to align: 111662 (10.71%)
+# reads with alignments suppressed due to -m: 2679 (0.26%)
+Reported 928248 alignments
+Time searching: 00:00:04
+Overall time: 00:00:04
+File List:  ./YNB2_B_S2_L004_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1016985
+# reads with at least one alignment: 910356 (89.52%)
+# reads that failed to align: 106629 (10.48%)
+# reads with alignments suppressed due to -m: 2617 (0.26%)
+Reported 907739 alignments
+Time searching: 00:00:04
+Overall time: 00:00:04
+File List:  ./YNB2_C_S3_L001_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:02
+# reads processed: 984753
+# reads with at least one alignment: 876128 (88.97%)
+# reads that failed to align: 108625 (11.03%)
+# reads with alignments suppressed due to -m: 2619 (0.27%)
+Reported 873509 alignments
+Time searching: 00:00:03
+Overall time: 00:00:03
+File List:  ./YNB2_C_S3_L002_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 955387
+# reads with at least one alignment: 849282 (88.89%)
+# reads that failed to align: 106105 (11.11%)
+# reads with alignments suppressed due to -m: 2431 (0.25%)
+Reported 846851 alignments
+Time searching: 00:00:04
+Overall time: 00:00:04
+File List:  ./YNB2_C_S3_L003_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:02
+# reads processed: 970371
+# reads with at least one alignment: 860927 (88.72%)
+# reads that failed to align: 109444 (11.28%)
+# reads with alignments suppressed due to -m: 2642 (0.27%)
+Reported 858285 alignments
+Time searching: 00:00:03
+Overall time: 00:00:03
+File List:  ./YNB2_C_S3_L004_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:02
+# reads processed: 951147
+# reads with at least one alignment: 846552 (89.00%)
+# reads that failed to align: 104595 (11.00%)
+# reads with alignments suppressed due to -m: 2598 (0.27%)
+Reported 843954 alignments
+Time searching: 00:00:03
+Overall time: 00:00:04
+File List:  ./YNB2_DOX_A_S4_L001_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1206125
+# reads with at least one alignment: 1081951 (89.70%)
+# reads that failed to align: 124174 (10.30%)
+# reads with alignments suppressed due to -m: 3646 (0.30%)
+Reported 1078305 alignments
+Time searching: 00:00:04
+Overall time: 00:00:04
+File List:  ./YNB2_DOX_A_S4_L002_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1168197
+# reads with at least one alignment: 1047628 (89.68%)
+# reads that failed to align: 120569 (10.32%)
+# reads with alignments suppressed due to -m: 3434 (0.29%)
+Reported 1044194 alignments
+Time searching: 00:00:04
+Overall time: 00:00:04
+File List:  ./YNB2_DOX_A_S4_L003_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1206320
+# reads with at least one alignment: 1080567 (89.58%)
+# reads that failed to align: 125753 (10.42%)
+# reads with alignments suppressed due to -m: 3600 (0.30%)
+Reported 1076967 alignments
+Time searching: 00:00:05
+Overall time: 00:00:05
+File List:  ./YNB2_DOX_A_S4_L004_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1174979
+# reads with at least one alignment: 1054521 (89.75%)
+# reads that failed to align: 120458 (10.25%)
+# reads with alignments suppressed due to -m: 3567 (0.30%)
+Reported 1050954 alignments
+Time searching: 00:00:04
+Overall time: 00:00:04
+File List:  ./YNB2_DOX_B_S5_L001_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1023508
+# reads with at least one alignment: 912716 (89.18%)
+# reads that failed to align: 110792 (10.82%)
+# reads with alignments suppressed due to -m: 3559 (0.35%)
+Reported 909157 alignments
+Time searching: 00:00:04
+Overall time: 00:00:04
+File List:  ./YNB2_DOX_B_S5_L002_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:02
+# reads processed: 990540
+# reads with at least one alignment: 884045 (89.25%)
+# reads that failed to align: 106495 (10.75%)
+# reads with alignments suppressed due to -m: 3542 (0.36%)
+Reported 880503 alignments
+Time searching: 00:00:03
+Overall time: 00:00:03
+File List:  ./YNB2_DOX_B_S5_L003_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1022193
+# reads with at least one alignment: 909433 (88.97%)
+# reads that failed to align: 112760 (11.03%)
+# reads with alignments suppressed due to -m: 3414 (0.33%)
+Reported 906019 alignments
+Time searching: 00:00:04
+Overall time: 00:00:04
+File List:  ./YNB2_DOX_B_S5_L004_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:02
+# reads processed: 995330
+# reads with at least one alignment: 888592 (89.28%)
+# reads that failed to align: 106738 (10.72%)
+# reads with alignments suppressed due to -m: 3483 (0.35%)
+Reported 885109 alignments
+Time searching: 00:00:03
+Overall time: 00:00:03
+File List:  ./YNB2_DOX_C_S6_L001_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1304330
+# reads with at least one alignment: 1161756 (89.07%)
+# reads that failed to align: 142574 (10.93%)
+# reads with alignments suppressed due to -m: 4508 (0.35%)
+Reported 1157248 alignments
+Time searching: 00:00:04
+Overall time: 00:00:04
+File List:  ./YNB2_DOX_C_S6_L002_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:01
+Seeded quality full-index search: 00:00:02
+# reads processed: 1266669
+# reads with at least one alignment: 1127023 (88.98%)
+# reads that failed to align: 139646 (11.02%)
+# reads with alignments suppressed due to -m: 4396 (0.35%)
+Reported 1122627 alignments
+Time searching: 00:00:05
+Overall time: 00:00:05
+File List:  ./YNB2_DOX_C_S6_L003_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1300300
+# reads with at least one alignment: 1155816 (88.89%)
+# reads that failed to align: 144484 (11.11%)
+# reads with alignments suppressed due to -m: 4425 (0.34%)
+Reported 1151391 alignments
+Time searching: 00:00:05
+Overall time: 00:00:05
+File List:  ./YNB2_DOX_C_S6_L004_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1271128
+# reads with at least one alignment: 1132021 (89.06%)
+# reads that failed to align: 139107 (10.94%)
+# reads with alignments suppressed due to -m: 4463 (0.35%)
+Reported 1127558 alignments
+Time searching: 00:00:04
+Overall time: 00:00:04
+File List:  ./YNB3_A_S7_L001_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1167114
+# reads with at least one alignment: 1039746 (89.09%)
+# reads that failed to align: 127368 (10.91%)
+# reads with alignments suppressed due to -m: 3381 (0.29%)
+Reported 1036365 alignments
+Time searching: 00:00:04
+Overall time: 00:00:04
+File List:  ./YNB3_A_S7_L002_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:02
+# reads processed: 1129234
+# reads with at least one alignment: 1005861 (89.07%)
+# reads that failed to align: 123373 (10.93%)
+# reads with alignments suppressed due to -m: 3415 (0.30%)
+Reported 1002446 alignments
+Time searching: 00:00:03
+Overall time: 00:00:03
+File List:  ./YNB3_A_S7_L003_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1167956
+# reads with at least one alignment: 1038598 (88.92%)
+# reads that failed to align: 129358 (11.08%)
+# reads with alignments suppressed due to -m: 3509 (0.30%)
+Reported 1035089 alignments
+Time searching: 00:00:04
+Overall time: 00:00:04
+File List:  ./YNB3_A_S7_L004_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1138664
+# reads with at least one alignment: 1014953 (89.14%)
+# reads that failed to align: 123711 (10.86%)
+# reads with alignments suppressed due to -m: 3421 (0.30%)
+Reported 1011532 alignments
+Time searching: 00:00:04
+Overall time: 00:00:04
+File List:  ./YNB3_B_S8_L001_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1336808
+# reads with at least one alignment: 1197442 (89.57%)
+# reads that failed to align: 139366 (10.43%)
+# reads with alignments suppressed due to -m: 3233 (0.24%)
+Reported 1194209 alignments
+Time searching: 00:00:05
+Overall time: 00:00:05
+File List:  ./YNB3_B_S8_L002_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1290742
+# reads with at least one alignment: 1156761 (89.62%)
+# reads that failed to align: 133981 (10.38%)
+# reads with alignments suppressed due to -m: 3226 (0.25%)
+Reported 1153535 alignments
+Time searching: 00:00:04
+Overall time: 00:00:04
+File List:  ./YNB3_B_S8_L003_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1336997
+# reads with at least one alignment: 1195794 (89.44%)
+# reads that failed to align: 141203 (10.56%)
+# reads with alignments suppressed due to -m: 3244 (0.24%)
+Reported 1192550 alignments
+Time searching: 00:00:04
+Overall time: 00:00:04
+File List:  ./YNB3_B_S8_L004_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1301793
+# reads with at least one alignment: 1167028 (89.65%)
+# reads that failed to align: 134765 (10.35%)
+# reads with alignments suppressed due to -m: 3158 (0.24%)
+Reported 1163870 alignments
+Time searching: 00:00:05
+Overall time: 00:00:05
+File List:  ./YNB3_C_S9_L001_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1125158
+# reads with at least one alignment: 1002031 (89.06%)
+# reads that failed to align: 123127 (10.94%)
+# reads with alignments suppressed due to -m: 3901 (0.35%)
+Reported 998130 alignments
+Time searching: 00:00:04
+Overall time: 00:00:04
+File List:  ./YNB3_C_S9_L002_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1091118
+# reads with at least one alignment: 971914 (89.08%)
+# reads that failed to align: 119204 (10.92%)
+# reads with alignments suppressed due to -m: 3861 (0.35%)
+Reported 968053 alignments
+Time searching: 00:00:04
+Overall time: 00:00:04
+File List:  ./YNB3_C_S9_L003_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1123095
+# reads with at least one alignment: 998592 (88.91%)
+# reads that failed to align: 124503 (11.09%)
+# reads with alignments suppressed due to -m: 3888 (0.35%)
+Reported 994704 alignments
+Time searching: 00:00:04
+Overall time: 00:00:04
+File List:  ./YNB3_C_S9_L004_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1098907
+# reads with at least one alignment: 978850 (89.07%)
+# reads that failed to align: 120057 (10.93%)
+# reads with alignments suppressed due to -m: 3880 (0.35%)
+Reported 974970 alignments
+Time searching: 00:00:04
+Overall time: 00:00:04
+File List:  ./YNB3_DOX_A_S10_L001_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:04
+# reads processed: 1338941
+# reads with at least one alignment: 1199861 (89.61%)
+# reads that failed to align: 139080 (10.39%)
+# reads with alignments suppressed due to -m: 4213 (0.31%)
+Reported 1195648 alignments
+Time searching: 00:00:05
+Overall time: 00:00:05
+File List:  ./YNB3_DOX_A_S10_L002_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1297891
+# reads with at least one alignment: 1162213 (89.55%)
+# reads that failed to align: 135678 (10.45%)
+# reads with alignments suppressed due to -m: 4102 (0.32%)
+Reported 1158111 alignments
+Time searching: 00:00:05
+Overall time: 00:00:05
+File List:  ./YNB3_DOX_A_S10_L003_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1336209
+# reads with at least one alignment: 1194784 (89.42%)
+# reads that failed to align: 141425 (10.58%)
+# reads with alignments suppressed due to -m: 4281 (0.32%)
+Reported 1190503 alignments
+Time searching: 00:00:04
+Overall time: 00:00:04
+File List:  ./YNB3_DOX_A_S10_L004_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1307060
+# reads with at least one alignment: 1170934 (89.59%)
+# reads that failed to align: 136126 (10.41%)
+# reads with alignments suppressed due to -m: 4149 (0.32%)
+Reported 1166785 alignments
+Time searching: 00:00:04
+Overall time: 00:00:04
+File List:  ./YNB3_DOX_B_S11_L001_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:04
+# reads processed: 1348494
+# reads with at least one alignment: 1202252 (89.16%)
+# reads that failed to align: 146242 (10.84%)
+# reads with alignments suppressed due to -m: 4072 (0.30%)
+Reported 1198180 alignments
+Time searching: 00:00:05
+Overall time: 00:00:05
+File List:  ./YNB3_DOX_B_S11_L002_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1310618
+# reads with at least one alignment: 1167803 (89.10%)
+# reads that failed to align: 142815 (10.90%)
+# reads with alignments suppressed due to -m: 3975 (0.30%)
+Reported 1163828 alignments
+Time searching: 00:00:05
+Overall time: 00:00:05
+File List:  ./YNB3_DOX_B_S11_L003_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1345863
+# reads with at least one alignment: 1197444 (88.97%)
+# reads that failed to align: 148419 (11.03%)
+# reads with alignments suppressed due to -m: 4034 (0.30%)
+Reported 1193410 alignments
+Time searching: 00:00:04
+Overall time: 00:00:04
+File List:  ./YNB3_DOX_B_S11_L004_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:01
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1315888
+# reads with at least one alignment: 1173640 (89.19%)
+# reads that failed to align: 142248 (10.81%)
+# reads with alignments suppressed due to -m: 3907 (0.30%)
+Reported 1169733 alignments
+Time searching: 00:00:05
+Overall time: 00:00:05
+File List:  ./YNB3_DOX_C_S12_L001_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1275051
+# reads with at least one alignment: 1138022 (89.25%)
+# reads that failed to align: 137029 (10.75%)
+# reads with alignments suppressed due to -m: 4317 (0.34%)
+Reported 1133705 alignments
+Time searching: 00:00:05
+Overall time: 00:00:05
+File List:  ./YNB3_DOX_C_S12_L002_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1235881
+# reads with at least one alignment: 1102199 (89.18%)
+# reads that failed to align: 133682 (10.82%)
+# reads with alignments suppressed due to -m: 4229 (0.34%)
+Reported 1097970 alignments
+Time searching: 00:00:04
+Overall time: 00:00:04
+File List:  ./YNB3_DOX_C_S12_L003_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:04
+# reads processed: 1269970
+# reads with at least one alignment: 1130351 (89.01%)
+# reads that failed to align: 139619 (10.99%)
+# reads with alignments suppressed due to -m: 4290 (0.34%)
+Reported 1126061 alignments
+Time searching: 00:00:05
+Overall time: 00:00:05
+File List:  ./YNB3_DOX_C_S12_L004_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1246095
+# reads with at least one alignment: 1111400 (89.19%)
+# reads that failed to align: 134695 (10.81%)
+# reads with alignments suppressed due to -m: 4151 (0.33%)
+Reported 1107249 alignments
+Time searching: 00:00:04
+Overall time: 00:00:04
+File List:  ./YNB4_A_S1_L001_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:02
+# reads processed: 1129023
+# reads with at least one alignment: 1008129 (89.29%)
+# reads that failed to align: 120894 (10.71%)
+# reads with alignments suppressed due to -m: 3294 (0.29%)
+Reported 1004835 alignments
+Time searching: 00:00:03
+Overall time: 00:00:03
+File List:  ./YNB4_A_S1_L002_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:02
+# reads processed: 1079308
+# reads with at least one alignment: 968636 (89.75%)
+# reads that failed to align: 110672 (10.25%)
+# reads with alignments suppressed due to -m: 3180 (0.29%)
+Reported 965456 alignments
+Time searching: 00:00:03
+Overall time: 00:00:03
+File List:  ./YNB4_A_S1_L003_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:02
+# reads processed: 1079074
+# reads with at least one alignment: 964866 (89.42%)
+# reads that failed to align: 114208 (10.58%)
+# reads with alignments suppressed due to -m: 3031 (0.28%)
+Reported 961835 alignments
+Time searching: 00:00:03
+Overall time: 00:00:03
+File List:  ./YNB4_A_S1_L004_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:02
+# reads processed: 1084983
+# reads with at least one alignment: 967818 (89.20%)
+# reads that failed to align: 117165 (10.80%)
+# reads with alignments suppressed due to -m: 3155 (0.29%)
+Reported 964663 alignments
+Time searching: 00:00:03
+Overall time: 00:00:03
+File List:  ./YNB4_B_S2_L001_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:01
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:02
+# reads processed: 1164837
+# reads with at least one alignment: 1037837 (89.10%)
+# reads that failed to align: 127000 (10.90%)
+# reads with alignments suppressed due to -m: 3218 (0.28%)
+Reported 1034619 alignments
+Time searching: 00:00:05
+Overall time: 00:00:05
+File List:  ./YNB4_B_S2_L002_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1114768
+# reads with at least one alignment: 996703 (89.41%)
+# reads that failed to align: 118065 (10.59%)
+# reads with alignments suppressed due to -m: 3064 (0.27%)
+Reported 993639 alignments
+Time searching: 00:00:04
+Overall time: 00:00:04
+File List:  ./YNB4_B_S2_L003_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1121936
+# reads with at least one alignment: 999895 (89.12%)
+# reads that failed to align: 122041 (10.88%)
+# reads with alignments suppressed due to -m: 2968 (0.26%)
+Reported 996927 alignments
+Time searching: 00:00:04
+Overall time: 00:00:04
+File List:  ./YNB4_B_S2_L004_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1121284
+# reads with at least one alignment: 996674 (88.89%)
+# reads that failed to align: 124610 (11.11%)
+# reads with alignments suppressed due to -m: 3057 (0.27%)
+Reported 993617 alignments
+Time searching: 00:00:04
+Overall time: 00:00:04
+File List:  ./YNB4_C_S3_L001_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1109764
+# reads with at least one alignment: 998263 (89.95%)
+# reads that failed to align: 111501 (10.05%)
+# reads with alignments suppressed due to -m: 2934 (0.26%)
+Reported 995329 alignments
+Time searching: 00:00:04
+Overall time: 00:00:04
+File List:  ./YNB4_C_S3_L002_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1049156
+# reads with at least one alignment: 947333 (90.29%)
+# reads that failed to align: 101823 (9.71%)
+# reads with alignments suppressed due to -m: 2763 (0.26%)
+Reported 944570 alignments
+Time searching: 00:00:04
+Overall time: 00:00:04
+File List:  ./YNB4_C_S3_L003_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1038331
+# reads with at least one alignment: 934128 (89.96%)
+# reads that failed to align: 104203 (10.04%)
+# reads with alignments suppressed due to -m: 2709 (0.26%)
+Reported 931419 alignments
+Time searching: 00:00:04
+Overall time: 00:00:04
+File List:  ./YNB4_C_S3_L004_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:02
+# reads processed: 1050358
+# reads with at least one alignment: 942911 (89.77%)
+# reads that failed to align: 107447 (10.23%)
+# reads with alignments suppressed due to -m: 2706 (0.26%)
+Reported 940205 alignments
+Time searching: 00:00:03
+Overall time: 00:00:03
+File List:  ./YNB4_DOX_A_S4_L001_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1165050
+# reads with at least one alignment: 1047333 (89.90%)
+# reads that failed to align: 117717 (10.10%)
+# reads with alignments suppressed due to -m: 4315 (0.37%)
+Reported 1043018 alignments
+Time searching: 00:00:05
+Overall time: 00:00:05
+File List:  ./YNB4_DOX_A_S4_L002_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1116082
+# reads with at least one alignment: 1007202 (90.24%)
+# reads that failed to align: 108880 (9.76%)
+# reads with alignments suppressed due to -m: 4074 (0.37%)
+Reported 1003128 alignments
+Time searching: 00:00:04
+Overall time: 00:00:04
+File List:  ./YNB4_DOX_A_S4_L003_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:02
+# reads processed: 1123677
+# reads with at least one alignment: 1010558 (89.93%)
+# reads that failed to align: 113119 (10.07%)
+# reads with alignments suppressed due to -m: 4081 (0.36%)
+Reported 1006477 alignments
+Time searching: 00:00:04
+Overall time: 00:00:04
+File List:  ./YNB4_DOX_A_S4_L004_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1126246
+# reads with at least one alignment: 1010486 (89.72%)
+# reads that failed to align: 115760 (10.28%)
+# reads with alignments suppressed due to -m: 4076 (0.36%)
+Reported 1006410 alignments
+Time searching: 00:00:04
+Overall time: 00:00:04
+File List:  ./YNB4_DOX_B_S5_L001_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1196890
+# reads with at least one alignment: 1075149 (89.83%)
+# reads that failed to align: 121741 (10.17%)
+# reads with alignments suppressed due to -m: 4103 (0.34%)
+Reported 1071046 alignments
+Time searching: 00:00:04
+Overall time: 00:00:04
+File List:  ./YNB4_DOX_B_S5_L002_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1149969
+# reads with at least one alignment: 1036701 (90.15%)
+# reads that failed to align: 113268 (9.85%)
+# reads with alignments suppressed due to -m: 3909 (0.34%)
+Reported 1032792 alignments
+Time searching: 00:00:05
+Overall time: 00:00:05
+File List:  ./YNB4_DOX_B_S5_L003_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:02
+# reads processed: 1160887
+# reads with at least one alignment: 1042706 (89.82%)
+# reads that failed to align: 118181 (10.18%)
+# reads with alignments suppressed due to -m: 3963 (0.34%)
+Reported 1038743 alignments
+Time searching: 00:00:04
+Overall time: 00:00:04
+File List:  ./YNB4_DOX_B_S5_L004_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1164135
+# reads with at least one alignment: 1044145 (89.69%)
+# reads that failed to align: 119990 (10.31%)
+# reads with alignments suppressed due to -m: 3903 (0.34%)
+Reported 1040242 alignments
+Time searching: 00:00:04
+Overall time: 00:00:04
+File List:  ./YNB4_DOX_C_S6_L001_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:04
+# reads processed: 1513923
+# reads with at least one alignment: 1357155 (89.64%)
+# reads that failed to align: 156768 (10.36%)
+# reads with alignments suppressed due to -m: 4634 (0.31%)
+Reported 1352521 alignments
+Time searching: 00:00:05
+Overall time: 00:00:05
+File List:  ./YNB4_DOX_C_S6_L002_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1448005
+# reads with at least one alignment: 1302915 (89.98%)
+# reads that failed to align: 145090 (10.02%)
+# reads with alignments suppressed due to -m: 4615 (0.32%)
+Reported 1298300 alignments
+Time searching: 00:00:04
+Overall time: 00:00:04
+File List:  ./YNB4_DOX_C_S6_L003_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1463932
+# reads with at least one alignment: 1313599 (89.73%)
+# reads that failed to align: 150333 (10.27%)
+# reads with alignments suppressed due to -m: 4443 (0.30%)
+Reported 1309156 alignments
+Time searching: 00:00:05
+Overall time: 00:00:05
+File List:  ./YNB4_DOX_C_S6_L004_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:04
+# reads processed: 1467622
+# reads with at least one alignment: 1313888 (89.52%)
+# reads that failed to align: 153734 (10.48%)
+# reads with alignments suppressed due to -m: 4507 (0.31%)
+Reported 1309381 alignments
+Time searching: 00:00:05
+Overall time: 00:00:05
+File List:  ./YNB5_A_S19_L001_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1603286
+# reads with at least one alignment: 1420618 (88.61%)
+# reads that failed to align: 182668 (11.39%)
+# reads with alignments suppressed due to -m: 5160 (0.32%)
+Reported 1415458 alignments
+Time searching: 00:00:05
+Overall time: 00:00:05
+File List:  ./YNB5_A_S19_L002_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:04
+# reads processed: 1649505
+# reads with at least one alignment: 1465620 (88.85%)
+# reads that failed to align: 183885 (11.15%)
+# reads with alignments suppressed due to -m: 5422 (0.33%)
+Reported 1460198 alignments
+Time searching: 00:00:06
+Overall time: 00:00:06
+File List:  ./YNB5_A_S19_L003_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:04
+# reads processed: 1575459
+# reads with at least one alignment: 1398374 (88.76%)
+# reads that failed to align: 177085 (11.24%)
+# reads with alignments suppressed due to -m: 5138 (0.33%)
+Reported 1393236 alignments
+Time searching: 00:00:05
+Overall time: 00:00:05
+File List:  ./YNB5_A_S19_L004_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1638120
+# reads with at least one alignment: 1455276 (88.84%)
+# reads that failed to align: 182844 (11.16%)
+# reads with alignments suppressed due to -m: 5410 (0.33%)
+Reported 1449866 alignments
+Time searching: 00:00:05
+Overall time: 00:00:05
+File List:  ./YNB5_B_S20_L001_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:04
+# reads processed: 1385959
+# reads with at least one alignment: 1239759 (89.45%)
+# reads that failed to align: 146200 (10.55%)
+# reads with alignments suppressed due to -m: 3595 (0.26%)
+Reported 1236164 alignments
+Time searching: 00:00:05
+Overall time: 00:00:05
+File List:  ./YNB5_B_S20_L002_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:04
+# reads processed: 1428556
+# reads with at least one alignment: 1280224 (89.62%)
+# reads that failed to align: 148332 (10.38%)
+# reads with alignments suppressed due to -m: 3645 (0.26%)
+Reported 1276579 alignments
+Time searching: 00:00:05
+Overall time: 00:00:05
+File List:  ./YNB5_B_S20_L003_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:04
+# reads processed: 1362462
+# reads with at least one alignment: 1219290 (89.49%)
+# reads that failed to align: 143172 (10.51%)
+# reads with alignments suppressed due to -m: 3573 (0.26%)
+Reported 1215717 alignments
+Time searching: 00:00:05
+Overall time: 00:00:05
+File List:  ./YNB5_B_S20_L004_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:04
+# reads processed: 1432216
+# reads with at least one alignment: 1282407 (89.54%)
+# reads that failed to align: 149809 (10.46%)
+# reads with alignments suppressed due to -m: 3735 (0.26%)
+Reported 1278672 alignments
+Time searching: 00:00:05
+Overall time: 00:00:05
+File List:  ./YNB5_C_S21_L001_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1513725
+# reads with at least one alignment: 1344538 (88.82%)
+# reads that failed to align: 169187 (11.18%)
+# reads with alignments suppressed due to -m: 4882 (0.32%)
+Reported 1339656 alignments
+Time searching: 00:00:05
+Overall time: 00:00:05
+File List:  ./YNB5_C_S21_L002_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:04
+# reads processed: 1556382
+# reads with at least one alignment: 1385162 (89.00%)
+# reads that failed to align: 171220 (11.00%)
+# reads with alignments suppressed due to -m: 5240 (0.34%)
+Reported 1379922 alignments
+Time searching: 00:00:05
+Overall time: 00:00:05
+File List:  ./YNB5_C_S21_L003_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:04
+# reads processed: 1500970
+# reads with at least one alignment: 1333211 (88.82%)
+# reads that failed to align: 167759 (11.18%)
+# reads with alignments suppressed due to -m: 5025 (0.33%)
+Reported 1328186 alignments
+Time searching: 00:00:06
+Overall time: 00:00:06
+File List:  ./YNB5_C_S21_L004_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1557758
+# reads with at least one alignment: 1385853 (88.96%)
+# reads that failed to align: 171905 (11.04%)
+# reads with alignments suppressed due to -m: 5037 (0.32%)
+Reported 1380816 alignments
+Time searching: 00:00:05
+Overall time: 00:00:05
+File List:  ./YNB5_DOX_A_S22_L001_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1197338
+# reads with at least one alignment: 1062463 (88.74%)
+# reads that failed to align: 134875 (11.26%)
+# reads with alignments suppressed due to -m: 3763 (0.31%)
+Reported 1058700 alignments
+Time searching: 00:00:04
+Overall time: 00:00:04
+File List:  ./YNB5_DOX_A_S22_L002_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1236729
+# reads with at least one alignment: 1100028 (88.95%)
+# reads that failed to align: 136701 (11.05%)
+# reads with alignments suppressed due to -m: 3771 (0.30%)
+Reported 1096257 alignments
+Time searching: 00:00:04
+Overall time: 00:00:04
+File List:  ./YNB5_DOX_A_S22_L003_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1202547
+# reads with at least one alignment: 1067513 (88.77%)
+# reads that failed to align: 135034 (11.23%)
+# reads with alignments suppressed due to -m: 3658 (0.30%)
+Reported 1063855 alignments
+Time searching: 00:00:04
+Overall time: 00:00:04
+File List:  ./YNB5_DOX_A_S22_L004_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1243232
+# reads with at least one alignment: 1104854 (88.87%)
+# reads that failed to align: 138378 (11.13%)
+# reads with alignments suppressed due to -m: 3926 (0.32%)
+Reported 1100928 alignments
+Time searching: 00:00:04
+Overall time: 00:00:04
+File List:  ./YNB5_DOX_B_S23_L001_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:04
+# reads processed: 1450666
+# reads with at least one alignment: 1287811 (88.77%)
+# reads that failed to align: 162855 (11.23%)
+# reads with alignments suppressed due to -m: 4884 (0.34%)
+Reported 1282927 alignments
+Time searching: 00:00:05
+Overall time: 00:00:05
+File List:  ./YNB5_DOX_B_S23_L002_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:04
+# reads processed: 1491839
+# reads with at least one alignment: 1327235 (88.97%)
+# reads that failed to align: 164604 (11.03%)
+# reads with alignments suppressed due to -m: 5010 (0.34%)
+Reported 1322225 alignments
+Time searching: 00:00:05
+Overall time: 00:00:05
+File List:  ./YNB5_DOX_B_S23_L003_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:03
+# reads processed: 1457314
+# reads with at least one alignment: 1294741 (88.84%)
+# reads that failed to align: 162573 (11.16%)
+# reads with alignments suppressed due to -m: 4786 (0.33%)
+Reported 1289955 alignments
+Time searching: 00:00:05
+Overall time: 00:00:05
+File List:  ./YNB5_DOX_B_S23_L004_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:04
+# reads processed: 1502684
+# reads with at least one alignment: 1335603 (88.88%)
+# reads that failed to align: 167081 (11.12%)
+# reads with alignments suppressed due to -m: 5032 (0.33%)
+Reported 1330571 alignments
+Time searching: 00:00:05
+Overall time: 00:00:05
+File List:  ./YNB5_DOX_C_S24_L001_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:04
+# reads processed: 1477604
+# reads with at least one alignment: 1308292 (88.54%)
+# reads that failed to align: 169312 (11.46%)
+# reads with alignments suppressed due to -m: 4703 (0.32%)
+Reported 1303589 alignments
+Time searching: 00:00:05
+Overall time: 00:00:05
+File List:  ./YNB5_DOX_C_S24_L002_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:04
+# reads processed: 1513105
+# reads with at least one alignment: 1342246 (88.71%)
+# reads that failed to align: 170859 (11.29%)
+# reads with alignments suppressed due to -m: 4872 (0.32%)
+Reported 1337374 alignments
+Time searching: 00:00:05
+Overall time: 00:00:05
+File List:  ./YNB5_DOX_C_S24_L003_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:04
+# reads processed: 1474798
+# reads with at least one alignment: 1308491 (88.72%)
+# reads that failed to align: 166307 (11.28%)
+# reads with alignments suppressed due to -m: 4488 (0.30%)
+Reported 1304003 alignments
+Time searching: 00:00:05
+Overall time: 00:00:05
+File List:  ./YNB5_DOX_C_S24_L004_R1_001.fastq.gz
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+Seeded quality full-index search: 00:00:04
+# reads processed: 1524640
+# reads with at least one alignment: 1353815 (88.80%)
+# reads that failed to align: 170825 (11.20%)
+# reads with alignments suppressed due to -m: 4811 (0.32%)
+Reported 1349004 alignments
+Time searching: 00:00:05
+Overall time: 00:00:05

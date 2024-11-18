@@ -24,14 +24,14 @@ qc_output_dir = "./output/qc/"
 if (!dir.exists(qc_output_dir)) { dir.create(qc_output_dir, recursive = TRUE) }
 
 # Read the metatable that guides the column names to refer to
-meta_dir = "./input/metatable.csv"
-df_meta <- read.csv(file=meta_dir, header=TRUE)
+meta_dir = "./input/metatable.txt"
+df_meta <- read.csv(file=meta_dir, header=TRUE, sep='\t')
 
 # Note: this QC step does not require any plate or strain information
 
 # Start the pipeline by pre-processing the input data to get LFC
-read_dir = "./input/sum_data.csv"
-df_all <- read.csv(file=read_dir, header=TRUE)
+read_dir = "./input/sum_data.txt"
+df_all <- read.csv(file=read_dir, header=TRUE, sep='\t')
 
 # Pre-define the column names of the LFC values based on input, UP/DN separately
 groups <- unique(df_meta$condition)
