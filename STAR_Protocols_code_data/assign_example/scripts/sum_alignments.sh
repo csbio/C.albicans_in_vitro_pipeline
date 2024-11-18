@@ -13,6 +13,7 @@ if [ "$?" = "0" ]; then
 
    if [ "$?" > "0" ]; then
       echo "Program completes, or there could be an error merging files."
+      echo "Please check if all alignments are done and the columns & reads in the merged_results.txt file are complete."
       cd -
       exit 1
    fi
