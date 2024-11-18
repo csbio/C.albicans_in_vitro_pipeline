@@ -37,7 +37,7 @@ setwd(work_dir)
 low_sum_reads_filter <- 150 # Remove strains with very low or inconsistent read counts across samples
 bool_remove_duplicates <- TRUE # decide whether to keep unique occurrence of strain
 map_dir <- "./input/map_replicate_reads.csv"
-read_dir <- "./output/MappingOutput-2024-10-25/merged_results.txt"
+read_dir <- "./output/MappingOutput-2024-11-17/merged_results.txt"
 save_sum_raw_dir <- "./output/sum_data_numeric.csv"
 save_sum_final_dir <- "./output/sum_data.csv"
 
@@ -78,7 +78,7 @@ for (i in 1:length(reps_up))  {
 }
 
 # Save a raw version before filtering strains
-write.csv(df_sum, file = save_sum_raw_dir)
+write.csv(df_sum, file = save_sum_raw_dir, row.names = FALSE)
 
 # Get the sum of reads across all replicates, and filter by the cutoff
 df_sum$sum <- rowSums(df_sum[, c(reps_up, reps_dn)], na.rm=TRUE) 
@@ -94,4 +94,4 @@ df_sum_f <- df_sum_f[order(df_sum_f$feature), ] # Sort by feature name
 
 # Export the final csv file
 df_sum_f <- df_sum_f[, !names(df_sum_f) %in% "sum"]
-write.csv(df_sum_f, file = save_sum_final_dir)
+write.csv(df_sum_f, file = save_sum_final_dir, row.names = FALSE)
